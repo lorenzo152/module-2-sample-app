@@ -83,13 +83,7 @@
 
 	<!-- Windows Phone -->
 	<gap:splash src="splash/wp/splash.jpg" gap:platform="winphone" />
-	
-	<!-- Permissions required. See online PhoneGap docs for more. -->
-	
-
-	
-	
-	
+		
 	<!-- Required to access external resources, like APIs and webpages. Wildcard (*) allows access to everything. -->
 	<access origin="*"/>
 </widget>
