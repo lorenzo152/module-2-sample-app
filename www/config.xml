@@ -83,7 +83,16 @@
 
 	<!-- Windows Phone -->
 	<gap:splash src="splash/wp/splash.jpg" gap:platform="winphone" />
-		
+	
+	<!-- Permissions required. See online PhoneGap docs for more. -->
+	<feature name="NetworkStatus">
+    	<param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+	</feature>
+	
+
+	
+	
+	
 	<!-- Required to access external resources, like APIs and webpages. Wildcard (*) allows access to everything. -->
 	<access origin="*"/>
 </widget>
