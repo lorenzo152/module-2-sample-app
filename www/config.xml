@@ -85,7 +85,7 @@
 	<gap:splash src="splash/wp/splash.jpg" gap:platform="winphone" />
 	
 	<!-- Permissions required. See online PhoneGap docs for more. -->
-	<feature name="http://api.phonegap.com/1.0/network"/> <!-- Enable internet access permission -->
+	
 
 	<!-- Plugins that enable device-specific native funtionality. See online docs for more -->
 	<gap:plugin name="org.apache.cordova.network-information" version="0.2.7" />  <!-- For checking Internet connectivity -->
